@@ -24,7 +24,7 @@ html {
   --my-light-green: rgb(240, 255, 240);
   --my-dark-green: rgb(70, 255, 0);
   --my-yellow: rgb(255, 250, 0);
-  --my-red: rgb(255, 30, 30); }
+  --my-blue: rgb(20, 60, 115); }
 
 .container {
   position: relative;
@@ -277,7 +277,7 @@ html {
 .dark_mode {
   background-color: var(--my-dark-black); }
   .dark_mode *::selection {
-    background-color: var(--my-red); }
+    background-color: var(--my-blue); }
   .dark_mode .col3 {
     border-right: 0.15rem solid var(--my-white); }
     .dark_mode .col3 .wrap .title {
